@@ -27,6 +27,23 @@
   color: white;
   font-size: 12px;
 }
+@media (max-width: 500px) {
+  .sidebar {
+    width: 0;
+  }
+  .sidebar-link img {
+    width: 0;
+    height: 0;
+  }
+  .sidebar-link div {
+    font-size: 0;
+  }
+}
+@media (min-width: 501px) and (max-width: 1299px) {
+  .sidebar {
+    width: 90px;
+  }
+}
 @media (min-width: 1300px) {
   .sidebar {
     width: 160px;
