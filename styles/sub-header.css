@@ -1,0 +1,19 @@
+.sub-header {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  padding: 4px 10px 4px 10px;
+  overflow: hidden;  
+}
+.sub-header-button {
+  white-space: nowrap;
+  color: white;
+  background-color: rgb(51, 51, 51);
+  padding: 6px 8px 6px 8px;
+  border-radius: 6px;
+}
+.sub-header-button:hover {
+  cursor: pointer;
+}
